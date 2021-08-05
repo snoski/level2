@@ -4,6 +4,7 @@ body, main {
 
 body {
 	flex-direction:  column;
+	font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -21,3 +22,20 @@ aside {
 	overflow-y: auto;
 }
 
+.index_sgl_img {
+	width: 75%;
+	margin: auto;
+}
+
+header {
+	background-color: #4473c4;
+}
+
+header a {
+	color: #ccdbf0;
+}
+
+main {
+	background-color: #555555;
+	color:  #EEEEEE;
+}
