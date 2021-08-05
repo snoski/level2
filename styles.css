@@ -1,10 +1,10 @@
+/*HOLBERTON'S SPECIFIC REQUESTS*/
 body, main {
 	display: flex;
 }
 
 body {
 	flex-direction:  column;
-	font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -20,6 +20,16 @@ article {
 aside {
 	flex: 1;
 	overflow-y: auto;
+}
+
+/*MY ADDITIONS*/
+html, body, h1, h2, h3, h4, h5, h6, header {
+	font-family: 'Georama', sans-serif;
+}
+
+p {
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
 }
 
 .index_sgl_img {
@@ -38,4 +48,34 @@ header a {
 main {
 	background-color: #555555;
 	color:  #EEEEEE;
+}
+
+main a {
+	color: #4473c4;
+}
+
+main a:visited {
+	color: #4473c4;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+
+h3 {
+	font-weight: 200;
+}
+
+.p_bold_italic {
+	font-weight: 600;
+	font-style: italic;
+}
+
+.p_bold {
+	font-weight: 600;
 }
