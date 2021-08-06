@@ -5,6 +5,7 @@ body, main {
 
 body {
 	flex-direction:  column;
+	background-color: black;
 }
 
 main {
@@ -40,13 +41,13 @@ p {
 header {
 	background-color: #4473c4;
 }
-
+/*
 header ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-
+*/
 header a {
 	color: #ccdbf0;
 	font-size: 24px;
@@ -62,10 +63,6 @@ header a.active_page {
 
 header a.active_page:hover {
 	color: #ccdbf0;
-}
-
-header.logo {
-	/*color: rgb(180, 188, 193) !important;*/
 }
 
 main {
@@ -123,4 +120,9 @@ h3 {
 
 #disqus_thread {
 	/*background-color: #555555;*/
+}
+
+footer {
+	background-color: #4473c4;
+	color: #ccdbf0;
 }
