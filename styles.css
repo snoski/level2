@@ -41,7 +41,26 @@ header {
 	background-color: #4473c4;
 }
 
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
 header a {
+	color: #ccdbf0;
+	font-size: 24px;
+}
+
+header a:hover {
+	color: #99ffaa;
+}
+
+header a.active_page {
+	font-weight: 700;
+}
+
+header a.active_page:hover {
 	color: #ccdbf0;
 }
 
@@ -51,11 +70,16 @@ main {
 }
 
 main a {
-	color: #4473c4;
+	color: #99aaff;
+	text-decoration: none;
 }
 
 main a:visited {
-	color: #4473c4;
+	color: #99aaff;
+}
+
+main a:hover {
+	color: #99ffaa;
 }
 
 h1 {
@@ -78,4 +102,17 @@ h3 {
 
 .p_bold {
 	font-weight: 600;
+}
+
+.ad_wrapper {
+	width: 67%;
+	margin: auto;
+	color: #ffffaa;
+	border: solid #EEEEEE 1px;
+}
+
+.ad_wrapper p, img {
+	padding:  3px;
+	width: 98%;
+	margin: auto;
 }
