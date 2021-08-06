@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wdth,wght@0,109.2,100;0,109.2,200;0,109.2,300;0,109.2,400;0,109.2,500;0,109.2,600;0,109.2,700;0,109.2,800;0,109.2,900;1,109.2,100;1,109.2,200;1,109.2,300;1,109.2,400;1,109.2,500;1,109.2,600;1,109.2,700;1,109.2,800;1,109.2,900&family=Lato:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="behavior.js"></script>
   </head>
   <body class="works_on_smartphone">
     <header>
@@ -52,15 +53,15 @@
         <p style="font-size: 12px; font-style: italic;">
           (article continued below...)
         </p>
-        <!--link for pie chart pdf: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf-->
+        <!-- link for pie chart pdf: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf -->
         <div class="ad_wrapper">
-          <p>If you are enjoying this content you might also enjoy this discussion about pie charts:</p>
+          <p>If you are enjoying this content, you might also enjoy this discussion about pie charts:</p>
           <a href="https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf">
             <img src="http://jeffbcarter.com/Monthly%20Returns/piechartpdf.png" alt="Pie Charts Are Bad">
           </a>
         </div>
-        <h2>Another heading --- why not?</h2>
-        <a href="https://en.wikipedia.org/wiki/The_Celestine_Prophecy"><img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Thecelestineprophecy.jpg" width="200" alt="The Celestine Prophecy"></a>
+        <h2>ENLARGEABLE PICTURE - REPLACE WITH WHAT YOU WANT</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Thecelestineprophecy.jpg" alt="The Celestine Prophecy" class="small" id="smart_thumbnail">
         <p>
           Required paragraph 3 (required clickable image above)
         </p>
@@ -71,9 +72,28 @@
       </article>
 
       <aside>
-        <p>
-          placeholder to add comment thread later
-        </p>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+             */
+            
+            var disqus_config = function () {
+                this.page.url = "http://54.164.88.53";  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = "home"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            
+            (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                var d = document, s = d.createElement('script');
+                
+                s.src = 'https://holbjclevel2.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+                
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
       </aside>
 
     </main>

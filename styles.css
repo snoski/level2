@@ -120,3 +120,7 @@ h3 {
 	width: 98%;
 	margin: auto;
 }
+
+#disqus_thread {
+	background-color: #555555;
+}
