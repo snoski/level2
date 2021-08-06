@@ -64,6 +64,30 @@ header a.active_page {
 header a.active_page:hover {
 	color: #ccdbf0;
 }
+header .right {
+	background-color: #000066;
+	padding: 6px;
+	border-radius: 8px;
+}
+/*
+.fb-share-button .fb_iframe_widget {
+	martin-top: 100px;
+}
+
+#twitter-widget-0 {
+	margin-top: 2px;
+}
+*/
+
+.social_media_buttons {
+	line-height: 10px;
+}
+
+#insta {
+	height: 20px;
+	width: 20px;
+	padding: 0;
+}
 
 main {
 	background-color: #555555;
