@@ -64,6 +64,10 @@ header a.active_page:hover {
 	color: #ccdbf0;
 }
 
+header.logo {
+	/*color: rgb(180, 188, 193) !important;*/
+}
+
 main {
 	background-color: #555555;
 	color:  #EEEEEE;
