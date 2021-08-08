@@ -132,15 +132,29 @@ h3 {
 
 .my_fake_ad_class {
 	width: 67%;
-	margin: auto;
+	margin: 0 auto;
 	color: #ffffaa;
 	border: solid #EEEEEE 1px;
 }
 
-.my_fake_ad_class p, img {
+.my_fake_ad_class p, .my_fake_ad_class img {
 	padding:  3px;
 	width: 98%;
 	margin: auto;
+}
+
+.instructions {
+	font-size: 14px; 
+	font-style: italic;
+	font-weight: 300;
+	/*color: #FF0000;*/
+}
+
+.arrows {
+	width: 5.5%; 
+}
+.histograms {
+	width: 67%;
 }
 
 #disqus_thread {
@@ -150,4 +164,16 @@ h3 {
 footer {
 	background-color: #4473c4;
 	color: #ccdbf0;
+}
+
+/*SPECIFIC TO ABOUT*/
+#profile_div {
+	width: 25%;
+	margin: 0 auto;	
+}
+
+/*SPECIFIC TO PROJECTS*/
+img.medium {
+	width: 50%;
+	background-color: #EEEEEE;
 }
