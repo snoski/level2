@@ -117,21 +117,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	//CODE FOR BETTERGRAPHS
 	var quartile = document.getElementById("quartile");
 	quartile.addEventListener("click", function() {	
-		console.log('triggered 1');
 		document.getElementById("bettergraph-1").style.display = "inline";
 		document.getElementById("bettergraph-2").style.display = "none";
 		document.getElementById("bettergraph-3").style.display = "none";
 	});
 	var quartilesd = document.getElementById("quartilesd");
 	quartilesd.addEventListener("click", function() {	
-		console.log('triggered 2');
 		document.getElementById("bettergraph-1").style.display = "none";
 		document.getElementById("bettergraph-2").style.display = "inline";
 		document.getElementById("bettergraph-3").style.display = "none";
 	});
 	var quartile2sd = document.getElementById("quartile2sd");
 	quartile2sd.addEventListener("click", function() {	
-		console.log('triggered 3');
 		document.getElementById("bettergraph-1").style.display = "none";
 		document.getElementById("bettergraph-2").style.display = "none";
 		document.getElementById("bettergraph-3").style.display = "inline";
