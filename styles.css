@@ -156,6 +156,15 @@ h3 {
 .histograms {
 	width: 67%;
 }
+#admonishment{
+	margin-top: 0;
+	color: #FF6666;
+}
+
+#mean-toggle {
+	display: block;
+	margin-bottom: 5px;
+}
 
 #disqus_thread {
 	/*background-color: #555555;*/

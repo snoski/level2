@@ -50,13 +50,13 @@
         </p>
         <img src="http://jeffbcarter.com/Monthly%20Returns/meanandmedian.png" alt="Mean & Median Monthly Returns" class="index_sgl_img">
         <p>
-          The mean, which is the simple arithmetic average that was presented in the first graph above, is far more negative for September than its median, which is the middle value of the data set. This tells us that there are large negative outliers in the data for September that make the simple average appear far worse than September actually usually is. 
+          The mean, which is the simple arithmetic average that was presented in the first graph above, is far more negative for September than its median, which is the middle value of the data set. This gives us our first hint what is actually happening in the data for September! (If you don't know yet, please read on.)
         </p>
         <p>
-          Furthermore, in the first graph, the mean for May makes it look like it is the 3rd worst month, when in reality, it is actually a little better than the average month! While these are interesting revelations, <span class="p_bold">I hope you don't stop there but instead ask the question...</span>
+          Similarly, in the first graph for May, the mean made it look like it is the 3rd worst month, but according to the median, it is actually a little better than the average month! While these are interesting revelations, <span class="p_bold">I hope you don't stop there but instead ask the question after the fold.</span>
         </p>
         <p style="font-size: 14px; font-style: italic;">
-          article continued after this "sponsored content" (not really sponsored, LOL)...
+          (article continues after this fake, not actually "sponsored content" LOL)...
         </p>
         <div class="my_fake_ad_class">
           <p>If you are enjoying this content, you might also enjoy this discussion about pie charts:</p>
@@ -92,7 +92,85 @@
           What did you notice? Did you see how the values are mostly clumped around the center for all of the months? Did you notice any extreme values in any months? How about September? Do you see how an outlier might be affecting the data? What did you think about the general shape of September as compared to the other months? Was it substantially different than the other months or mostly similar?
         </p>
         <p>
-          Good! It's important to recognize when outliers might be skewing the data in a way that that would be unrealistic to rely upon when you're forming expectations about what is likely to happen. By definition, outliers have a very low probability of occurring. In the case of September, it recorded the single largest monthly loss in the history of the stock market since 1927. This is skewing the data
+          Good! It's important to recognize when outliers might be skewing the data in a way that that would be unrealistic to rely upon when you're forming expectations about what is likely to happen. By definition, outliers have a very low probability of occurring. 
+        </p>
+        <p>
+          In the case of September, the largest monthly crash in the history of the stock market since 1927 was recorded in 1931 amidst the Great Depression. This occurrence skews the data in such a way that the mean (the simple arithmetic average) is heavily influenced by this large negative value. 
+        </p>
+        <p>
+          But just using common sense, should investors be afraid that a Great Depression return is a likely outcome for any given September? <span class="p-bold">I'll tell you the answer: no.</span> So why are people using a statistic that is heavily influenced by that highly improbable number?
+        </p>
+        <h2>Let's see what the data looks like without those outliers!</h2>
+        <p>
+          As you probably noticed earlier, the return distributions for all 12 months are clumped around zero with values becoming increasingly less probable as we get further away from zero. The chart below shows the cumulative percentage of monthly returns that have an absolute value less than a particular percentage. This is just a fancy way of saying "is <span class="p-bold">between</span> the negative and positive values of that percentage." You can see that the return does not get very large before it accounts for nearly every occurrence in the dataset:
+        </p>
+        <img src="http://jeffbcarter.com/Monthly%20Returns/cumul-1.png" alt="cumulative" style="display:inline" id="cumul-1" class="index_sgl_img">
+        <img src="http://jeffbcarter.com/Monthly%20Returns/cumul-2.png" alt="cumulative" style="display:none" id="cumul-2" class="index_sgl_img">
+        <h2 id="admonishment" style="display:block">
+          Wait! Did you click the chart above yet???
+        </h2>
+        <p id="cumul-p" style="display:none">
+          The data point on that graph above indicates that 94.6% of occurrences are returns between -10% and 10%. This is very close to the 95% of occurences that can be expected to fall within 2 standard deviations in a "normal distribution." Let's see how much of our monthly distributions lie outside of that "cut-off":
+        </p>        
+        <div class="image_wrapper">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-prev.png" alt="Previous Month" style="display:inline" class="arrows" id="prev-arrow-2">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-1.png" alt="Histogram" style="display:none" class="histograms" id="img_2-1">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-2.png" alt="Histogram" style="display:none" class="histograms" id="img_2-2">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-3.png" alt="Histogram" style="display:none" class="histograms" id="img_2-3">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-4.png" alt="Histogram" style="display:none" class="histograms" id="img_2-4">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-5.png" alt="Histogram" style="display:none" class="histograms" id="img_2-5">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-6.png" alt="Histogram" style="display:none" class="histograms" id="img_2-6">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-7.png" alt="Histogram" style="display:none" class="histograms" id="img_2-7">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-8.png" alt="Histogram" style="display:none" class="histograms" id="img_2-8">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-9.png" alt="Histogram" style="display:inline" class="histograms" id="img_2-9">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-10.png" alt="Histogram" style="display:none" class="histograms" id="img_2-10">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-11.png" alt="Histogram" style="display:none" class="histograms" id="img_2-11">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-12.png" alt="Histogram" style="display:none" class="histograms" id="img_2-12">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/2-all.png" alt="Histogram" style="display:none" class="histograms" id="img_2-all">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-next.png" alt="Next Month" style="display:inline" class="arrows" id="next-arrow-2">
+        </div>
+        <p>
+          And now let's zoom in and get a more granular look at the data WITHIN the cut-off (You can also click the button to toggle the mean on and off):
+        </p>
+        <div class="image_wrapper">
+          <button id="mean-toggle">Toggle Mean On</button>
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-prev.png" alt="Previous Month" style="display:inline" class="arrows" id="prev-arrow-3">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-1.png" alt="Histogram" style="display:none" class="histograms" id="img_3-1">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-2.png" alt="Histogram" style="display:none" class="histograms" id="img_3-2">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-3.png" alt="Histogram" style="display:none" class="histograms" id="img_3-3">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-4.png" alt="Histogram" style="display:none" class="histograms" id="img_3-4">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-5.png" alt="Histogram" style="display:none" class="histograms" id="img_3-5">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-6.png" alt="Histogram" style="display:none" class="histograms" id="img_3-6">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-7.png" alt="Histogram" style="display:none" class="histograms" id="img_3-7">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-8.png" alt="Histogram" style="display:none" class="histograms" id="img_3-8">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-9.png" alt="Histogram" style="display:inline" class="histograms" id="img_3-9">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-10.png" alt="Histogram" style="display:none" class="histograms" id="img_3-10">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-11.png" alt="Histogram" style="display:none" class="histograms" id="img_3-11">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-12.png" alt="Histogram" style="display:none" class="histograms" id="img_3-12">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/3-all.png" alt="Histogram" style="display:none" class="histograms" id="img_3-all">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-next.png" alt="Next Month" style="display:inline" class="arrows" id="next-arrow-3">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-prev.png" alt="Previous Month" style="display:none" class="arrows" id="prev-arrow-4">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-1.png" alt="Histogram" style="display:none" class="histograms" id="img_4-1">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-2.png" alt="Histogram" style="display:none" class="histograms" id="img_4-2">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-3.png" alt="Histogram" style="display:none" class="histograms" id="img_4-3">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-4.png" alt="Histogram" style="display:none" class="histograms" id="img_4-4">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-5.png" alt="Histogram" style="display:none" class="histograms" id="img_4-5">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-6.png" alt="Histogram" style="display:none" class="histograms" id="img_4-6">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-7.png" alt="Histogram" style="display:none" class="histograms" id="img_4-7">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-8.png" alt="Histogram" style="display:none" class="histograms" id="img_4-8">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-9.png" alt="Histogram" style="display:none" class="histograms" id="img_4-9">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-10.png" alt="Histogram" style="display:none" class="histograms" id="img_4-10">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-11.png" alt="Histogram" style="display:none" class="histograms" id="img_4-11">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-12.png" alt="Histogram" style="display:none" class="histograms" id="img_4-12">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/4-all.png" alt="Histogram" style="display:none" class="histograms" id="img_4-all">
+          <img src="http://jeffbcarter.com/Monthly%20Returns/1-next.png" alt="Next Month" style="display:none" class="arrows" id="next-arrow-4">
+        </div>
+        <p>
+          As you can see, September does have a lower mean and median than the other months, but a large portion of its return distribution is in positive territory! Investors taking their advice from the talking heads on CNBC might have decided to sit on the sidelines in September when there's actually a reaonable chance the stock market will go up!
+        </p>
+        <h2>A better way to summarize the data</h2>
+        <p>
+          You may be thinking, "Okay, but can you really expect people to graph histograms to make sure the statistics being reported are what they seem to be?" And my answer is, no, I cannot really expect that. However, there are ways the media could visualize the data to be far more informative and less potentially misleading. Consider the following graph:
         </p>
         <h2>ENLARGEABLE PICTURE - REPLACE WITH WHAT YOU WANT</h2>
         <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Thecelestineprophecy.jpg" alt="The Celestine Prophecy" class="small" id="smart_thumbnail">
